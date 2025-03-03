@@ -1,4 +1,4 @@
-# Survial-Gear-Selection 
+# 🧟 Survival-Gear-Selection
 
 A Python-based inventory management system for a zombie apocalypse survival game.  
 It allows players to buy and manage essential items while balancing **weight and money** limits.
@@ -17,8 +17,8 @@ It allows players to buy and manage essential items while balancing **weight and
 ## 💻 How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/Zombie-Survival-Inventory.git
-   cd Zombie-Survival-Inventory
+   git clone https://github.com/YOUR_GITHUB_USERNAME/Survival-Gear-Selection.git
+   cd Survival-Gear-Selection
    ```
 2. Install pandas (if not installed):
    ```bash
@@ -30,14 +30,14 @@ It allows players to buy and manage essential items while balancing **weight and
    ```
 
 ## 📜 Example Output
-```
+```mathematica
 ==== Zombie Apocalypse Store ====
-        name                weight  cost  useful
- Baseball Bat               2.0   150    True
- Rusty Machete              1.5   200    True
- Handgun + 6 Bullets        3.0   500    True
- Backpack [Increases Carry Limit] 1.0   100    True
- First Aid Kit              2.0   250    True
+        name  weight  cost  useful
+ Baseball Bat     2.0   150    True
+ Rusty Machete     1.5   200    True
+ Handgun + 6 Bullets     3.0   500    True
+ Backpack [Increases Carry Limit]     1.0   100    True
+ First Aid Kit     2.0   250    True
 
 ==== Selected Inventory ====
 - Rusty Machete (1.5kg) - 200 💎
@@ -50,23 +50,25 @@ Remaining money: 50 💎
 ```
 
 ## 🛠️ Future Features
-- 🔄 Add randomized inventory each time
-- 🧠 Implement player skill stats affecting item usage
-- 🔥 Introduce difficulty modes with limited supplies
+- Add randomized inventory each time
+- Implement player skill stats affecting item usage
+- Introduce difficulty modes with limited supplies
 
 ## 📜 License
 This project is open-source and available under the MIT License.
 
-## 📂 Folder Structure
-```
-📂 Zombie-Survival-Inventory/
- ├── 📄 README.md (Project Documentation)
- ├── 🐍 inventory.py (The main Python script)
- ├── 📂 data/ (Optional: Store external item lists)
- ├── 📜 .gitignore (To exclude unnecessary files)
-```
+---
 
-## 🎮 Extra: Make It Interactive in Google Colab
+### **📂 Folder Structure (For GitHub Repo)**
+📂 **Survival-Gear-Selection/**  
+ ├── 📄 `README.md` (Project Documentation)  
+ ├── 🐍 `inventory.py` (The main Python script)  
+ ├── 📂 `data/` (Optional: Store external item lists)  
+ ├── 📜 `.gitignore` (To exclude unnecessary files)  
+
+---
+
+### **Extra: Make It Interactive in Google Colab**
 If you want **manual selection instead of auto-picking**, replace this part:
 ```python
 selected_items = [
@@ -105,12 +107,25 @@ while True:
     else:
         print("❌ Invalid item name! Please try again.")
 ```
+This will allow manual item selection in Google Colab.
+
+## Final Steps: Uploading to GitHub
+Now that your repo is ready:
+
+1. Go to GitHub
+2. Click "New Repository"
+3. Name it: **Survival-Gear-Selection**
+4. Choose Public or Private
+5. Upload files:
+   - `inventory.py`
+   - `README.md`
+6. Click "Commit" to save changes.
 
 ## 🔥 Next Steps
-- 🎮 Add more survival mechanics (thirst, fatigue)
-- 🔥 Implement combat system (zombie encounters)
-- 💾 Expand to save/load inventory feature
-- 🌍 Create a full text-based RPG with events
+🎮 Add more survival mechanics (thirst, fatigue)  
+🔥 Implement combat system (zombie encounters)  
+💾 Expand to save/load inventory feature  
+🌍 Create a full text-based RPG with events  
 
-
+Would you like help with GitHub CLI commands or expanding features? 🚀🔥
 
